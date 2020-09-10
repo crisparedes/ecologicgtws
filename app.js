@@ -34,7 +34,7 @@ let nogAdjudicacionesFaltantes = [];
 //exportando la carpeta que contiene los assets y css
 app.use(express.static('public'));
 
-app.listen(process.env.PORT || 80, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('Servidor iniciado');
 });
 
